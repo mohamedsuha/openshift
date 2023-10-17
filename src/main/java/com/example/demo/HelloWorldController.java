@@ -10,5 +10,10 @@ public class HelloWorldController
 public String hello()   
 {  
 return "Hello javaTpoint";  
-}  
+} 
+  @RequestMapping("/s")  
+public String hello()   
+{  
+return "Hello javaTpointss";  
+} 
 }  
